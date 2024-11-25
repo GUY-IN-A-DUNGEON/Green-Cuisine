@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: white; /* This will set the default text color for the page to white */
+}
+
+/* Header Section */
+header.banner {
+    width: 100%;
+    height: 350px;
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensures header text is white */
+    text-align: center;
+    padding-top: 100px;
+}
+
+header .banner-content {
+    background-color: #86e76e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation Bar Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #86e76e;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0); /* Set link color to white */
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+}
+
+.contact-info {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Contact Details Section */
+.contact-details {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contact-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-size: 1.1em;
+    margin-top: 10px;
+    display: block;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
